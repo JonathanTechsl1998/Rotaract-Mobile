@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9667CF91A38DB978CD4F753F /* libPods-Rotaract MobileUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4A009963FE9FD84A1A1833 /* libPods-Rotaract MobileUITests.a */; };
+		A40BB5A220F6FF2500D610EA /* insta.html in Resources */ = {isa = PBXBuildFile; fileRef = A40BB5A120F6FF2400D610EA /* insta.html */; };
+		A47E715720D91F5400C21A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E715620D91F5400C21A28 /* AppDelegate.swift */; };
+		A47E715920D91F5400C21A28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E715820D91F5400C21A28 /* ViewController.swift */; };
+		A47E715C20D91F5400C21A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47E715A20D91F5400C21A28 /* Main.storyboard */; };
+		A47E715E20D91F5A00C21A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47E715D20D91F5A00C21A28 /* Assets.xcassets */; };
+		A47E716120D91F5A00C21A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47E715F20D91F5A00C21A28 /* LaunchScreen.storyboard */; };
+		A47E716C20D91F5A00C21A28 /* Rotaract_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E716B20D91F5A00C21A28 /* Rotaract_MobileTests.swift */; };
+		A47E717720D91F5A00C21A28 /* Rotaract_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E717620D91F5A00C21A28 /* Rotaract_MobileUITests.swift */; };
+		A47E718520D9213700C21A28 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E718420D9213700C21A28 /* loginViewController.swift */; };
+		A47E718720D9214700C21A28 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E718620D9214700C21A28 /* signupViewController.swift */; };
+		A47E718920D921C100C21A28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A47E718820D921C100C21A28 /* GoogleService-Info.plist */; };
+		A47E719520D9280100C21A28 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E719420D9280100C21A28 /* LiveViewController.swift */; };
+		A47E719720D9280E00C21A28 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E719620D9280E00C21A28 /* CalendarViewController.swift */; };
+		A482418120DB6F4600EA87A5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A482418020DB6F4600EA87A5 /* CoreData.framework */; };
+		A4D0E20120DBAE5F00CE46F8 /* projectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D0E20020DBAE5F00CE46F8 /* projectsViewController.swift */; };
+		A4D0E20320DBAEF100CE46F8 /* calendar.html in Resources */ = {isa = PBXBuildFile; fileRef = A4D0E20220DBAEF100CE46F8 /* calendar.html */; };
+		A4D0E20520DBAEF600CE46F8 /* facebook.html in Resources */ = {isa = PBXBuildFile; fileRef = A4D0E20420DBAEF600CE46F8 /* facebook.html */; };
+		A4D0E20720DBB78B00CE46F8 /* fbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D0E20620DBB78B00CE46F8 /* fbViewController.swift */; };
+		A4DA7DE920F62E2000BAFB57 /* blogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DA7DE820F62E2000BAFB57 /* blogViewController.swift */; };
+		A4F574DF20F6013D0094C0C1 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F574DE20F6013D0094C0C1 /* XMLParser.swift */; };
+		A4F574E120F603AE0094C0C1 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F574E020F603AE0094C0C1 /* NewsTableViewController.swift */; };
+		A4F574E520F604B30094C0C1 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F574E420F604B30094C0C1 /* NewsTableViewCell.swift */; };
+		A4F574E720F621EF0094C0C1 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F574E620F621EE0094C0C1 /* MapsViewController.swift */; };
+		CEDCE4AB5DBC98C2A920B59B /* libPods-Rotaract Mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E62277A00DDD5BAEF6CE827A /* libPods-Rotaract Mobile.a */; };
+		DCE76904C6E04A743C51690D /* libPods-Rotaract MobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7FC2B7B248BB248A12CE83 /* libPods-Rotaract MobileTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A47E716820D91F5A00C21A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A47E714B20D91F5300C21A28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A47E715220D91F5300C21A28;
+			remoteInfo = "Rotaract Mobile";
+		};
+		A47E717320D91F5A00C21A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A47E714B20D91F5300C21A28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A47E715220D91F5300C21A28;
+			remoteInfo = "Rotaract Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E2BB7F65D069FA3E2F6EF8 /* Pods-Rotaract MobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rotaract MobileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rotaract MobileUITests/Pods-Rotaract MobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		219BD233DA68F05A82DB73E0 /* Pods-Rotaract MobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rotaract MobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rotaract MobileTests/Pods-Rotaract MobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F7FC2B7B248BB248A12CE83 /* libPods-Rotaract MobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rotaract MobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F301182EB99E5FF4DD89B7 /* Pods-Rotaract Mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rotaract Mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rotaract Mobile/Pods-Rotaract Mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		55EC9F12951E9ED55F3D7B98 /* Pods-Rotaract MobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rotaract MobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rotaract MobileUITests/Pods-Rotaract MobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A40BB5A120F6FF2400D610EA /* insta.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = insta.html; sourceTree = "<group>"; };
+		A47E715320D91F5300C21A28 /* Rotaract Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rotaract Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47E715620D91F5400C21A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A47E715820D91F5400C21A28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A47E715B20D91F5400C21A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A47E715D20D91F5A00C21A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A47E716020D91F5A00C21A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A47E716220D91F5A00C21A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47E716720D91F5A00C21A28 /* Rotaract MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rotaract MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47E716B20D91F5A00C21A28 /* Rotaract_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotaract_MobileTests.swift; sourceTree = "<group>"; };
+		A47E716D20D91F5A00C21A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47E717220D91F5A00C21A28 /* Rotaract MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rotaract MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47E717620D91F5A00C21A28 /* Rotaract_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotaract_MobileUITests.swift; sourceTree = "<group>"; };
+		A47E717820D91F5A00C21A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47E718420D9213700C21A28 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		A47E718620D9214700C21A28 /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		A47E718820D921C100C21A28 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A47E719420D9280100C21A28 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		A47E719620D9280E00C21A28 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		A482418020DB6F4600EA87A5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A4B56C3D20F7698000D91F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		A4D0E20020DBAE5F00CE46F8 /* projectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectsViewController.swift; sourceTree = "<group>"; };
+		A4D0E20220DBAEF100CE46F8 /* calendar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calendar.html; sourceTree = "<group>"; };
+		A4D0E20420DBAEF600CE46F8 /* facebook.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = facebook.html; sourceTree = "<group>"; };
+		A4D0E20620DBB78B00CE46F8 /* fbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fbViewController.swift; sourceTree = "<group>"; };
+		A4DA7DE820F62E2000BAFB57 /* blogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blogViewController.swift; sourceTree = "<group>"; };
+		A4F574DD20F5F67C0094C0C1 /* Rotaract Mobile-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rotaract Mobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		A4F574DE20F6013D0094C0C1 /* XMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		A4F574E020F603AE0094C0C1 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		A4F574E420F604B30094C0C1 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		A4F574E620F621EE0094C0C1 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		AB47203AAFB5FFC6C9C48F74 /* Pods-Rotaract Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rotaract Mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rotaract Mobile/Pods-Rotaract Mobile.release.xcconfig"; sourceTree = "<group>"; };
+		BD4A009963FE9FD84A1A1833 /* libPods-Rotaract MobileUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rotaract MobileUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D302AA5CB2C97FB4653E943D /* Pods-Rotaract MobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rotaract MobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rotaract MobileTests/Pods-Rotaract MobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E62277A00DDD5BAEF6CE827A /* libPods-Rotaract Mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rotaract Mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A47E715020D91F5300C21A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A482418120DB6F4600EA87A5 /* CoreData.framework in Frameworks */,
+				CEDCE4AB5DBC98C2A920B59B /* libPods-Rotaract Mobile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47E716420D91F5A00C21A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE76904C6E04A743C51690D /* libPods-Rotaract MobileTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47E716F20D91F5A00C21A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9667CF91A38DB978CD4F753F /* libPods-Rotaract MobileUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A47E714A20D91F5300C21A28 = {
+			isa = PBXGroup;
+			children = (
+				A47E715520D91F5300C21A28 /* Rotaract Mobile */,
+				A47E716A20D91F5A00C21A28 /* Rotaract MobileTests */,
+				A47E717520D91F5A00C21A28 /* Rotaract MobileUITests */,
+				A47E715420D91F5300C21A28 /* Products */,
+				EE8DB5F5BB30562D206424E9 /* Frameworks */,
+				A50B4489CEC1492140CB111C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A47E715420D91F5300C21A28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A47E715320D91F5300C21A28 /* Rotaract Mobile.app */,
+				A47E716720D91F5A00C21A28 /* Rotaract MobileTests.xctest */,
+				A47E717220D91F5A00C21A28 /* Rotaract MobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A47E715520D91F5300C21A28 /* Rotaract Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				A47E719B20D92A9D00C21A28 /* RESOURCES */,
+				A47E719320D927E800C21A28 /* OTHER */,
+				A47E718A20D925A100C21A28 /* MODEL */,
+				A47E715620D91F5400C21A28 /* AppDelegate.swift */,
+				A47E715820D91F5400C21A28 /* ViewController.swift */,
+				A47E715A20D91F5400C21A28 /* Main.storyboard */,
+				A47E715D20D91F5A00C21A28 /* Assets.xcassets */,
+				A47E715F20D91F5A00C21A28 /* LaunchScreen.storyboard */,
+				A47E716220D91F5A00C21A28 /* Info.plist */,
+				A47E718420D9213700C21A28 /* loginViewController.swift */,
+				A47E718620D9214700C21A28 /* signupViewController.swift */,
+				A47E718820D921C100C21A28 /* GoogleService-Info.plist */,
+				A4F574DD20F5F67C0094C0C1 /* Rotaract Mobile-Bridging-Header.h */,
+			);
+			path = "Rotaract Mobile";
+			sourceTree = "<group>";
+		};
+		A47E716A20D91F5A00C21A28 /* Rotaract MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				A47E716B20D91F5A00C21A28 /* Rotaract_MobileTests.swift */,
+				A47E716D20D91F5A00C21A28 /* Info.plist */,
+			);
+			path = "Rotaract MobileTests";
+			sourceTree = "<group>";
+		};
+		A47E717520D91F5A00C21A28 /* Rotaract MobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A47E717620D91F5A00C21A28 /* Rotaract_MobileUITests.swift */,
+				A47E717820D91F5A00C21A28 /* Info.plist */,
+			);
+			path = "Rotaract MobileUITests";
+			sourceTree = "<group>";
+		};
+		A47E718A20D925A100C21A28 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				A4F574DE20F6013D0094C0C1 /* XMLParser.swift */,
+				A4F574E020F603AE0094C0C1 /* NewsTableViewController.swift */,
+				A4F574E420F604B30094C0C1 /* NewsTableViewCell.swift */,
+				A4DA7DE820F62E2000BAFB57 /* blogViewController.swift */,
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
+		A47E719320D927E800C21A28 /* OTHER */ = {
+			isa = PBXGroup;
+			children = (
+				A47E719420D9280100C21A28 /* LiveViewController.swift */,
+				A47E719620D9280E00C21A28 /* CalendarViewController.swift */,
+				A4D0E20020DBAE5F00CE46F8 /* projectsViewController.swift */,
+				A4D0E20620DBB78B00CE46F8 /* fbViewController.swift */,
+				A4F574E620F621EE0094C0C1 /* MapsViewController.swift */,
+			);
+			path = OTHER;
+			sourceTree = "<group>";
+		};
+		A47E719B20D92A9D00C21A28 /* RESOURCES */ = {
+			isa = PBXGroup;
+			children = (
+				A4D0E20420DBAEF600CE46F8 /* facebook.html */,
+				A40BB5A120F6FF2400D610EA /* insta.html */,
+				A4D0E20220DBAEF100CE46F8 /* calendar.html */,
+			);
+			path = RESOURCES;
+			sourceTree = "<group>";
+		};
+		A50B4489CEC1492140CB111C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46F301182EB99E5FF4DD89B7 /* Pods-Rotaract Mobile.debug.xcconfig */,
+				AB47203AAFB5FFC6C9C48F74 /* Pods-Rotaract Mobile.release.xcconfig */,
+				D302AA5CB2C97FB4653E943D /* Pods-Rotaract MobileTests.debug.xcconfig */,
+				219BD233DA68F05A82DB73E0 /* Pods-Rotaract MobileTests.release.xcconfig */,
+				18E2BB7F65D069FA3E2F6EF8 /* Pods-Rotaract MobileUITests.debug.xcconfig */,
+				55EC9F12951E9ED55F3D7B98 /* Pods-Rotaract MobileUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE8DB5F5BB30562D206424E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A482418020DB6F4600EA87A5 /* CoreData.framework */,
+				E62277A00DDD5BAEF6CE827A /* libPods-Rotaract Mobile.a */,
+				2F7FC2B7B248BB248A12CE83 /* libPods-Rotaract MobileTests.a */,
+				BD4A009963FE9FD84A1A1833 /* libPods-Rotaract MobileUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A47E715220D91F5300C21A28 /* Rotaract Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47E717B20D91F5A00C21A28 /* Build configuration list for PBXNativeTarget "Rotaract Mobile" */;
+			buildPhases = (
+				DB8EEDE4714996B2087B73A7 /* [CP] Check Pods Manifest.lock */,
+				A47E714F20D91F5300C21A28 /* Sources */,
+				A47E715020D91F5300C21A28 /* Frameworks */,
+				A47E715120D91F5300C21A28 /* Resources */,
+				6F409A9203764D7C04D94828 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rotaract Mobile";
+			productName = "Rotaract Mobile";
+			productReference = A47E715320D91F5300C21A28 /* Rotaract Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A47E716620D91F5A00C21A28 /* Rotaract MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47E717E20D91F5A00C21A28 /* Build configuration list for PBXNativeTarget "Rotaract MobileTests" */;
+			buildPhases = (
+				358B8A9B42F4224C4ADB4865 /* [CP] Check Pods Manifest.lock */,
+				A47E716320D91F5A00C21A28 /* Sources */,
+				A47E716420D91F5A00C21A28 /* Frameworks */,
+				A47E716520D91F5A00C21A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A47E716920D91F5A00C21A28 /* PBXTargetDependency */,
+			);
+			name = "Rotaract MobileTests";
+			productName = "Rotaract MobileTests";
+			productReference = A47E716720D91F5A00C21A28 /* Rotaract MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A47E717120D91F5A00C21A28 /* Rotaract MobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47E718120D91F5A00C21A28 /* Build configuration list for PBXNativeTarget "Rotaract MobileUITests" */;
+			buildPhases = (
+				77F8C3DD83CED807028968CB /* [CP] Check Pods Manifest.lock */,
+				A47E716E20D91F5A00C21A28 /* Sources */,
+				A47E716F20D91F5A00C21A28 /* Frameworks */,
+				A47E717020D91F5A00C21A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A47E717420D91F5A00C21A28 /* PBXTargetDependency */,
+			);
+			name = "Rotaract MobileUITests";
+			productName = "Rotaract MobileUITests";
+			productReference = A47E717220D91F5A00C21A28 /* Rotaract MobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A47E714B20D91F5300C21A28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jonathan Gurusinghe";
+				TargetAttributes = {
+					A47E715220D91F5300C21A28 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					A47E716620D91F5A00C21A28 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A47E715220D91F5300C21A28;
+					};
+					A47E717120D91F5A00C21A28 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A47E715220D91F5300C21A28;
+					};
+				};
+			};
+			buildConfigurationList = A47E714E20D91F5300C21A28 /* Build configuration list for PBXProject "Rotaract Mobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				ca,
+				cs,
+				da,
+				de,
+				el,
+				en_GB,
+				es,
+				fi,
+				fr,
+				he,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				ms,
+				nb,
+				nl,
+				pl,
+				pt,
+				pt_PT,
+				ro,
+				ru,
+				sk,
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				zh_CN,
+				zh_TW,
+			);
+			mainGroup = A47E714A20D91F5300C21A28;
+			productRefGroup = A47E715420D91F5300C21A28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A47E715220D91F5300C21A28 /* Rotaract Mobile */,
+				A47E716620D91F5A00C21A28 /* Rotaract MobileTests */,
+				A47E717120D91F5A00C21A28 /* Rotaract MobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A47E715120D91F5300C21A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D0E20520DBAEF600CE46F8 /* facebook.html in Resources */,
+				A4D0E20320DBAEF100CE46F8 /* calendar.html in Resources */,
+				A47E716120D91F5A00C21A28 /* LaunchScreen.storyboard in Resources */,
+				A47E718920D921C100C21A28 /* GoogleService-Info.plist in Resources */,
+				A40BB5A220F6FF2500D610EA /* insta.html in Resources */,
+				A47E715E20D91F5A00C21A28 /* Assets.xcassets in Resources */,
+				A47E715C20D91F5400C21A28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47E716520D91F5A00C21A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47E717020D91F5A00C21A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		358B8A9B42F4224C4ADB4865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rotaract MobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F409A9203764D7C04D94828 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rotaract Mobile/Pods-Rotaract Mobile-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rotaract Mobile/Pods-Rotaract Mobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77F8C3DD83CED807028968CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rotaract MobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8EEDE4714996B2087B73A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rotaract Mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A47E714F20D91F5300C21A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D0E20120DBAE5F00CE46F8 /* projectsViewController.swift in Sources */,
+				A4F574E520F604B30094C0C1 /* NewsTableViewCell.swift in Sources */,
+				A47E715920D91F5400C21A28 /* ViewController.swift in Sources */,
+				A4F574E720F621EF0094C0C1 /* MapsViewController.swift in Sources */,
+				A4F574DF20F6013D0094C0C1 /* XMLParser.swift in Sources */,
+				A47E715720D91F5400C21A28 /* AppDelegate.swift in Sources */,
+				A47E719520D9280100C21A28 /* LiveViewController.swift in Sources */,
+				A4DA7DE920F62E2000BAFB57 /* blogViewController.swift in Sources */,
+				A4D0E20720DBB78B00CE46F8 /* fbViewController.swift in Sources */,
+				A47E718720D9214700C21A28 /* signupViewController.swift in Sources */,
+				A47E718520D9213700C21A28 /* loginViewController.swift in Sources */,
+				A4F574E120F603AE0094C0C1 /* NewsTableViewController.swift in Sources */,
+				A47E719720D9280E00C21A28 /* CalendarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47E716320D91F5A00C21A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47E716C20D91F5A00C21A28 /* Rotaract_MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47E716E20D91F5A00C21A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47E717720D91F5A00C21A28 /* Rotaract_MobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A47E716920D91F5A00C21A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A47E715220D91F5300C21A28 /* Rotaract Mobile */;
+			targetProxy = A47E716820D91F5A00C21A28 /* PBXContainerItemProxy */;
+		};
+		A47E717420D91F5A00C21A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A47E715220D91F5300C21A28 /* Rotaract Mobile */;
+			targetProxy = A47E717320D91F5A00C21A28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A47E715A20D91F5400C21A28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47E715B20D91F5400C21A28 /* Base */,
+				A4B56C3D20F7698000D91F59 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A47E715F20D91F5A00C21A28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47E716020D91F5A00C21A28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A47E717920D91F5A00C21A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A47E717A20D91F5A00C21A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A47E717C20D91F5A00C21A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F301182EB99E5FF4DD89B7 /* Pods-Rotaract Mobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULLLYP6CQ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Base/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+				);
+				INFOPLIST_FILE = "Rotaract Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rotaract.mobile.Rotaract-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rotaract Mobile/Rotaract Mobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A47E717D20D91F5A00C21A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB47203AAFB5FFC6C9C48F74 /* Pods-Rotaract Mobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULLLYP6CQ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Base/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+				);
+				INFOPLIST_FILE = "Rotaract Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rotaract.mobile.Rotaract-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rotaract Mobile/Rotaract Mobile-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A47E717F20D91F5A00C21A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D302AA5CB2C97FB4653E943D /* Pods-Rotaract MobileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULLLYP6CQ9;
+				INFOPLIST_FILE = "Rotaract MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rotaract.mobile.Rotaract-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotaract Mobile.app/Rotaract Mobile";
+			};
+			name = Debug;
+		};
+		A47E718020D91F5A00C21A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219BD233DA68F05A82DB73E0 /* Pods-Rotaract MobileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULLLYP6CQ9;
+				INFOPLIST_FILE = "Rotaract MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rotaract.mobile.Rotaract-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotaract Mobile.app/Rotaract Mobile";
+			};
+			name = Release;
+		};
+		A47E718220D91F5A00C21A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E2BB7F65D069FA3E2F6EF8 /* Pods-Rotaract MobileUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULLLYP6CQ9;
+				INFOPLIST_FILE = "Rotaract MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rotaract.mobile.Rotaract-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rotaract Mobile";
+			};
+			name = Debug;
+		};
+		A47E718320D91F5A00C21A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55EC9F12951E9ED55F3D7B98 /* Pods-Rotaract MobileUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULLLYP6CQ9;
+				INFOPLIST_FILE = "Rotaract MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rotaract.mobile.Rotaract-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rotaract Mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A47E714E20D91F5300C21A28 /* Build configuration list for PBXProject "Rotaract Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47E717920D91F5A00C21A28 /* Debug */,
+				A47E717A20D91F5A00C21A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47E717B20D91F5A00C21A28 /* Build configuration list for PBXNativeTarget "Rotaract Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47E717C20D91F5A00C21A28 /* Debug */,
+				A47E717D20D91F5A00C21A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47E717E20D91F5A00C21A28 /* Build configuration list for PBXNativeTarget "Rotaract MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47E717F20D91F5A00C21A28 /* Debug */,
+				A47E718020D91F5A00C21A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47E718120D91F5A00C21A28 /* Build configuration list for PBXNativeTarget "Rotaract MobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47E718220D91F5A00C21A28 /* Debug */,
+				A47E718320D91F5A00C21A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A47E714B20D91F5300C21A28 /* Project object */;
+}
